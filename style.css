@@ -128,7 +128,10 @@ footer{
 @media (max-with:600px)
 body{ 
     font-size: 16px;
-    .container{
-        flex-direction: colum;
-    }
+}
+.container{
+    flex-direction: colum;
+}
+.footer{
+    font-size: 16px;
 }
