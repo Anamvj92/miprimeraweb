@@ -13,16 +13,14 @@ background-repeat: no-repeat;
 background-size:100% 100%;
 margin-top: 2px;
 align-items: center;
-max-width: 100%;
 }
 
 h1 {
 text-align: center;
 color:rgb(255, 255, 255);
-font-size: 2rem;
+font-size: 5rem;
 font-family: system-ui;
 letter-spacing: 10px;
-margin: 0;
 }
 
 /*main*/
@@ -31,7 +29,6 @@ main{
     align-items: center;
     flex-direction: column;
     height: 100vw;
-    padding: 20px;
 }
 
 p{
@@ -43,10 +40,9 @@ p{
 
 /*imagen principal*/
 img{
-    width: 100%;
+    width: 300px;
     box-shadow: 0px 0px 20px 10px #45415e;
-    margin: 20px 0px;
-    height: auto;
+    margin: 30px 0px;
 }
 
 /*ABOUT ME */
@@ -57,7 +53,6 @@ img{
     padding-bottom: 20px;
     display: block;
     margin-top: 2px;
-    text-align: center;
 }
 
 /*footer*/
@@ -83,7 +78,7 @@ footer{
 /*Música*/
 .musica-title {
     margin-top: 40px;
-    font-size: 2rem;
+    font-size: 5rem;
     text-align: center;
     color: #f7f8f8;
     font-family: system-ui;
@@ -92,21 +87,20 @@ footer{
 
 .caja-musica-selection {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
-    flex-wrap: wrap;
 }
 
 .caja-musica {
     display: flex;
     flex-direction: column;
-    width: 30%; 
+    width: 325px; 
     height: 500px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 20px 20px;
     background-color: #000;
     font-family: system-ui;
 }
@@ -121,22 +115,10 @@ footer{
     height: auto;
 }
 .caja-musica-title{
-    font-size: 1rem;
-    margin-top: 5px 0;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .musica-cubo1, .musica-cubo2, .musica-cubo3 {
     background-color: rgb(237, 192, 192);
-}
-
-/*responsive*/
-
-@media (max-width: 768px) {
-    .caja-musica-selection {
-    width: 80%;
-    }
-
-    .caja-musica{
-        width:45%
-    }
 }
