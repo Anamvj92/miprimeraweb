@@ -9,7 +9,7 @@
 /*BODY*/
 body {
 background-image: url(img/pexels-annam-w-1738675.jpg);
-background-repeat: no-repeat;
+background-repeat:inherit;
 background-size:100% 100%;
 margin-top: 2px;
 align-items: center;
@@ -138,5 +138,8 @@ footer{
 
     .caja-musica{
         width:45%
+    }
+    body{
+        width: 80%;
     }
 }
