@@ -19,9 +19,10 @@ max-width: 100%;
 h1 {
 text-align: center;
 color:rgb(255, 255, 255);
-font-size: 5rem;
+font-size: 2rem;
 font-family: system-ui;
 letter-spacing: 10px;
+margin: 0;
 }
 
 /*main*/
@@ -30,6 +31,7 @@ main{
     align-items: center;
     flex-direction: column;
     height: 100vw;
+    padding: 20px;
 }
 
 p{
@@ -43,7 +45,8 @@ p{
 img{
     width: 100%;
     box-shadow: 0px 0px 20px 10px #45415e;
-    margin: 30px 0px;
+    margin: 20px 0px;
+    height: auto;
 }
 
 /*ABOUT ME */
@@ -54,6 +57,7 @@ img{
     padding-bottom: 20px;
     display: block;
     margin-top: 2px;
+    text-align: center;
 }
 
 /*footer*/
@@ -79,7 +83,7 @@ footer{
 /*Música*/
 .musica-title {
     margin-top: 40px;
-    font-size: 5rem;
+    font-size: 2rem;
     text-align: center;
     color: #f7f8f8;
     font-family: system-ui;
@@ -88,20 +92,21 @@ footer{
 
 .caja-musica-selection {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .caja-musica {
     display: flex;
     flex-direction: column;
-    width: 325px; 
+    width: 30%; 
     height: 500px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px 20px;
+    margin-bottom: 30px;
     background-color: #000;
     font-family: system-ui;
 }
@@ -116,8 +121,8 @@ footer{
     height: auto;
 }
 .caja-musica-title{
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin-top: 5px 0;
 }
 
 .musica-cubo1, .musica-cubo2, .musica-cubo3 {
@@ -125,13 +130,13 @@ footer{
 }
 
 /*responsive*/
-@media (max-with:600px)
-body{ 
-    font-size: 16px;
-}
-.container{
-    flex-direction: colum;
-}
-.footer{
-    font-size: 16px;
+
+@media (max-width: 768px) {
+    .caja-musica-selection {
+    width: 80%;
+    }
+
+    .caja-musica{
+        width:45%
+    }
 }
