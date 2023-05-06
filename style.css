@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 
+    
 /*BODY*/
 body {
 background-image: url(img/pexels-annam-w-1738675.jpg);
 background-repeat: no-repeat;
 background-size:100% 100%;
-margin-top: 2px;
 align-items: center;
 }
 
@@ -28,7 +28,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vw;
+
 }
 
 p{
@@ -71,7 +71,7 @@ footer{
     text-align: center;
     font-family: system-ui;
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 3px;
 
 }
 
@@ -111,7 +111,7 @@ footer{
 }
 
 .musica-cubo-img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 .caja-musica-title{
